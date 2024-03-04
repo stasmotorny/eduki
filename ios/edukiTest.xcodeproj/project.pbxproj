@@ -41,6 +41,7 @@
 		5709B34CF0A7D63546082F79 /* Pods-edukiTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edukiTest.release.xcconfig"; path = "Target Support Files/Pods-edukiTest/Pods-edukiTest.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-edukiTest-edukiTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edukiTest-edukiTestTests.debug.xcconfig"; path = "Target Support Files/Pods-edukiTest-edukiTestTests/Pods-edukiTest-edukiTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-edukiTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-edukiTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A09EA82B95E49600D3ACFB /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = edukiTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-edukiTest-edukiTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edukiTest-edukiTestTests.release.xcconfig"; path = "Target Support Files/Pods-edukiTest-edukiTestTests/Pods-edukiTest-edukiTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -86,6 +87,7 @@
 		13B07FAE1A68108700A75B9A /* edukiTest */ = {
 			isa = PBXGroup;
 			children = (
+				79A09EA72B95E45000D3ACFB /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -104,6 +106,14 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-edukiTest-edukiTestTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79A09EA72B95E45000D3ACFB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				79A09EA82B95E49600D3ACFB /* MaterialCommunityIcons.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
