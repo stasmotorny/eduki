@@ -1,5 +1,7 @@
 App created according to description.
 
+<b>To start app, you should insert token in .env file.</b>
+
 Ios demo:
 
 ![ios](https://github.com/stasmotorny/eduki/assets/33233429/ea293fb7-b79c-4858-9d49-0f20756d2992)
